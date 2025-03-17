@@ -15,8 +15,11 @@
     </style>
 </head>
 
-<body>
-    {{ $slot }}
+<body class="bg-slate-950">
+    <main class="container mx-auto max-w-7xl">
+
+        {{ $slot }}
+    </main>
 
     @stack('scripts')
 </body>

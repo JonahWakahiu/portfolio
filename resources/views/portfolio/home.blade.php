@@ -173,9 +173,6 @@
 
                         <div x-data="{ readMore: false }" class="text-sm tracking-wide">
                             <p :class="readMore || 'line-clamp-5'">
-                                Here’s a corrected and polished version of the text, written in third person to
-                                describe
-                                someone:
                                 Jonahdevs is a Kenyan-based full-stack developer and web designer who specializes in
                                 creating
                                 clean, user-friendly digital experiences that seamlessly blend functionality with
@@ -560,7 +557,7 @@
                                                     d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z" />
                                             </svg>
                                             <span>Published On:</span>
-                                            <p>In progress</p>
+                                            <p>March 17, 2025</p>
                                         </div>
 
                                         <div class="flex gap-2  flex-wrap">
@@ -582,7 +579,7 @@
                                                     d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z" />
                                             </svg>
                                             <span>Preview:</span>
-                                            <a href="{{ route('shopsmart.home') }}"
+                                            <a href="https://shopsmart.jonahdevs.co.ke" target="_blank"
                                                 class="hover:text-white">shopsmart</a>
                                         </div>
                                     </div>
